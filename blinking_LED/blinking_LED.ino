@@ -1,14 +1,15 @@
+int pin_LED = 13;
 void setup() {
   // put your setup code here, to run once:
-  pinMode (13, OUTPUT);
+  pinMode (pin_LED, OUTPUT);
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite (13, HIGH);
+  digitalWrite (pin_LED, HIGH);
   delay (500);
-  digitalWrite (13, LOW);
+  digitalWrite (pin_LED, LOW);
   delay (500);
 
 }
